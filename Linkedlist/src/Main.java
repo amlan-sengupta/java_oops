@@ -69,7 +69,7 @@ public class Main {
     private static void visitNext(){
         System.out.println("Enter the current location:");
         String name=scanner.nextLine();
-        System.out.println("We are going back:");
+        System.out.println("We are going forward:");
         System.out.println( places.visitNext(name));
     }
 }
